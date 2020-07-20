@@ -1,0 +1,34 @@
+{
+  "title": "Satomi's Hawaii Travel Website",
+  "name": "satomi-hawaii-travel",
+  "version": "4.2.2",
+  "scripts": {
+    "start": "npm run lite gulp", 
+    "lite": "lite-server",
+    "gulp": "gulp watch"
+  },
+  "description": "Hawaian Travel/Tourist Website Portal",
+  "keywords": [
+    "css",
+    "sass",
+    "html",
+    "responsive",
+    "theme",
+    "template"
+  ],
+  
+  "author": "Satomi Siaca",
+  
+  "dependencies": {
+    "bootstrap": "4.5.0",
+    "jquery": "3.5.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "5.1.0",
+    "gulp": "4.0.2",
+    "lite-server": "^2.3.0",
+    "merge-stream": "2.0.0"
+  },
+  "main": "gulpfile.js"
+}
